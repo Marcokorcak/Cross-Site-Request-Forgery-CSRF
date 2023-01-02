@@ -267,6 +267,7 @@ cannot be carried out.
 <img src= "https://user-images.githubusercontent.com/77298953/210190190-c2ade104-ecc0-4130-bd2b-8d2fc62fd70c.PNG" width=70% height=70%>
 
 The image above shows the errors thrown by the website since the countermeasures are turned on
+
 </br>
 
 Question: Please explain why the attacker cannot send these secret tokens in the CSRF
