@@ -16,7 +16,7 @@ covers the following topics:
 
 ## Table of contents
 * [Lab Setup](#Lab-Setup)
-* [Task 1 GET Request](#Task-1)
+* [Task 1 GET Request](#Task-1-GET-Request)
 * [Task 2](#Task-2)
 * [Task 3](#Task-3)
 * [Task 4](#Task-4)
