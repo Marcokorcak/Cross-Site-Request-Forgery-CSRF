@@ -45,6 +45,8 @@ properly and could be visited.
 
 <img src= "https://user-images.githubusercontent.com/77298953/210189565-36179fef-b546-4688-8e61-f623d5857b71.PNG" width=70% height=70%>
 
+The image above shows the GET Request information using HTTP Header Live Extension 
+
 </br>
 
 # Task 1 POST Request
@@ -52,6 +54,8 @@ properly and could be visited.
 </br>
 
 <img src= "https://user-images.githubusercontent.com/77298953/210189603-0549b573-a8d0-4fdb-957f-f62223980716.PNG" width=70% height=70%>
+
+The image above shows the POST Request information using HTTP Header Live Extension 
 
 </br>
 
@@ -81,14 +85,17 @@ data.
 
 <img src= "https://user-images.githubusercontent.com/77298953/210189668-e6ae32c4-828e-41cf-98bf-beb552ca6d3f.PNG" width=70% height=70%>
 
+The image above shows the code that was added in the addfriend.html file
 </br>
 
 <img src= "https://user-images.githubusercontent.com/77298953/210189683-518bab0c-da62-4042-a3e8-1ec7a2c185d1.PNG" width=70% height=70%>
 
+The image above shows Samy sending a email to Alice with a malicious link
 </br>
 
 <img src= "https://user-images.githubusercontent.com/77298953/210189689-6b815363-c12c-4ace-bb41-38d01430caf5.PNG" width=70% height=70%>
 
+The image above shows that Samy is now Alice's friend when logged into Alice's account
 
 ## Explanation for Task 2
 In order to get this attack to work when Alice would go on the attacker32 website, a GET
@@ -113,6 +120,7 @@ ultimately adding Samy to her friends list.
 
 <img src= "https://user-images.githubusercontent.com/77298953/210189738-6469e115-55b0-44c0-aa90-f31e846fcdca.PNG" width=70% height=70%>
 
+The image above shows that user id of sammy by looking at header infromation provided by HTTP Header Live
 </br>
 
 The image above is the GET request that was sent when Alice visited the website. That
@@ -133,18 +141,22 @@ list by forging the GET request to add a friend.
 
 <img src= "https://user-images.githubusercontent.com/77298953/210189897-43d1183c-3b50-4bcb-93d7-715533f1c246.PNG" width=70% height=70%>
 
+The image above shows the file contents of editprofile.html
 </br>
 
 <img src= "https://user-images.githubusercontent.com/77298953/210189903-90b19827-21c3-4de6-bbfc-8b1681efd6c7.PNG" width=70% height=70%>
 
+The image above shows the file contents of editprofile.html
 </br>
 
 <img src= "https://user-images.githubusercontent.com/77298953/210189917-385bd4e5-5e1b-482d-ac4d-08f584549e7b.PNG" width=70% height=70%>
 
+The image above shows that Alice's profile description is now changed to "Samy is my hero"
 </br>
 
 <img src= "https://user-images.githubusercontent.com/77298953/210189938-cea8f365-1485-4f6c-957f-ccb4a7a5d075.PNG" width=70% height=70%>
 
+The image above shows the user id of Alice
 </br>
 
 ## Explanation for Task 3
@@ -219,6 +231,7 @@ specifically stated in the file so the requests can be forged.
 
 <img src= "https://user-images.githubusercontent.com/77298953/210190170-316f8024-234b-461f-bcff-7ad91244e534.PNG" width=70% height=70%>
 
+The image above shows the container id which was shown using the "dockps" command
 </br>
 
 ## Explanation for Task 4
@@ -253,9 +266,8 @@ cannot be carried out.
 
 <img src= "https://user-images.githubusercontent.com/77298953/210190190-c2ade104-ecc0-4130-bd2b-8d2fc62fd70c.PNG" width=70% height=70%>
 
+The image above shows the errors thrown by the website since the countermeasures are turned on
 </br>
-
-
 
 Question: Please explain why the attacker cannot send these secret tokens in the CSRF
 
