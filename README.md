@@ -39,10 +39,15 @@ properly and could be visited.
 
 Task 1 GET Request
 
+</br>
+
 <img src= "https://user-images.githubusercontent.com/77298953/210189565-36179fef-b546-4688-8e61-f623d5857b71.PNG" width=70% height=70%>
 
+</br>
 
 Task 1 POST Request
+
+</br>
 
 <img src= "https://user-images.githubusercontent.com/77298953/210189603-0549b573-a8d0-4fdb-957f-f62223980716.PNG" width=70% height=70%>
 
