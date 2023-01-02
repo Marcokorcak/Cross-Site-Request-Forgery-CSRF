@@ -16,14 +16,14 @@ covers the following topics:
 
 ## Table of contents
 * [Lab Setup](#Lab-Setup)
-* [Task 1](#Task-1)
+* [Task 1 GER Request](#Task-1)
 * [Task 2](#Task-2)
 * [Task 3](#Task-3)
 * [Task 4](#Task-4)
 * [Task 5](#Task-5)
 
 
-## Lab Environment Setup
+## Lab Setup
 
 <img src= "https://user-images.githubusercontent.com/77298953/210189511-17fb95e2-e7bc-4117-8c1d-48e9345ecccd.PNG" width=70% height=70%>
 
@@ -47,7 +47,7 @@ properly and could be visited.
 
 </br>
 
-Task 1 POST Request
+# Task 1 POST Request
 
 </br>
 
