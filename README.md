@@ -262,7 +262,7 @@ made using pseudo-random number generator (PRNG), seeded with the timestamp when
 
 created so this prevents attackers from being able to perfectly forge requests.
 
-**Task 5 SameSite Cookies**
+# Task 5 SameSite Cookies
 
 The image above shows the two links provided by the example32.com website.
 
