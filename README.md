@@ -17,10 +17,10 @@ covers the following topics:
 ## Table of contents
 * [Lab Setup](#Lab-Setup)
 * [Task 1 GET Request](#Task-1-GET-Request)
-* [Task 2](#Task-2)
-* [Task 3](#Task-3)
-* [Task 4](#Task-4)
-* [Task 5](#Task-5)
+* [Task 2 CSRF Attack](#Task-2-CSRF-Attack)
+* [Task 3 POST Request](#Task-3-POST-Request)
+* [Task 4 Counter Measures](#Task-4-Counter-Measures)
+* [Task 5 SameSite Cookies](#Task-5-SameSite-Cookies)
 
 
 ## Lab Setup
