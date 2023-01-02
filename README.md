@@ -23,22 +23,9 @@ covers the following topics:
 * [Task 5](#Task-5)
 
 
+##Lab Environment Setup
 
-Cybersecurity is an industry that is constantly evolving and involves understanding
-
-various attacks that could harm websites and user data. Protecting a website and user data comes
-
-with numerous challenges since there is a wide variety of attacks that hackers can use to
-
-compromise the system. In this lab, the Cross-Site Request Forgery (CSRF) attack was examined
-
-on the Elgg website. This lab specifically covered HTTP GET and POST requests in order to
-
-carry out malicious attacks, examining secret token counter measures, as well as experimenting
-
-with SameSite cookie implementations.
-
-**Lab Environment Setup**
+<img src= "https://user-images.githubusercontent.com/77298953/210189511-17fb95e2-e7bc-4117-8c1d-48e9345ecccd.PNG" width=70% height=70%>
 
 The image above shows the lab environment setup by adding the DNS configurations and the
 
@@ -50,23 +37,22 @@ were used to start the Elgg container. With all of this setup, all of the websit
 
 properly and could be visited.
 
-**Task 1 GET Request**
+Task 1 GET Request
+<img src= "https://user-images.githubusercontent.com/77298953/210189565-36179fef-b546-4688-8e61-f623d5857b71.PNG" width=70% height=70%>
 
 
+Task 1 POST Request
+<img src= "https://user-images.githubusercontent.com/77298953/210189603-0549b573-a8d0-4fdb-957f-f62223980716.PNG" width=70% height=70%>
 
+</br>
 
+Question: In your report, please identify the parameters used in this these requests, if any.
 
-**Task 1 POST Request**
+</br>
 
-**Question**: In your report, please identify the parameters used in this these requests, if any.
-
-**Ans:** In order to see the requests and parameters that were sent in the requests I used the HTTP
+Ans: In order to see the requests and parameters that were sent in the requests I used the HTTP
 
 Header Live extension which displayed all the requests made when doing an action. The
-
-
-
-
 
 parameters I observed were that the POST request had the \_elgg\_token and \_elgg\_ts along with
 
@@ -80,13 +66,23 @@ request was sent. In contrast, there were no parameters for the GET request as i
 
 data.
 
-**Task 2 CSRF Attack**
+</br>
+
+#Task 2 CSRF Attack
+
+<img src= "https://user-images.githubusercontent.com/77298953/210189668-e6ae32c4-828e-41cf-98bf-beb552ca6d3f.PNG" width=70% height=70%>
+
+</br>
+
+<img src= "https://user-images.githubusercontent.com/77298953/210189683-518bab0c-da62-4042-a3e8-1ec7a2c185d1.PNG" width=70% height=70%>
+
+</br>
+
+<img src= "https://user-images.githubusercontent.com/77298953/210189689-6b815363-c12c-4ace-bb41-38d01430caf5.PNG" width=70% height=70%>
 
 
-
-
-
-**Ans:** In order to get this attack to work when Alice would go on the attacker32 website, a GET
+## Explanation for Task 2
+In order to get this attack to work when Alice would go on the attacker32 website, a GET
 
 request needed to be initiated. This was done by inserting the [http://www.seed-](http://www.seed-server.com/action/friends/add?friend=59)
 
@@ -100,7 +96,14 @@ request would be sent when Alice visited this website without having to click an
 
 ultimately adding Samy to her friends list.
 
-**Task 2 Continued**
+</br>
+
+Task 2 Continued
+
+</br>
+<img src= "https://user-images.githubusercontent.com/77298953/210189738-6469e115-55b0-44c0-aa90-f31e846fcdca.PNG" width=70% height=70%>
+
+</br>
 
 Ans: The image above is the GET request that was sent when Alice visited the website. That
 
@@ -114,11 +117,7 @@ list by forging the GET request to add a friend.
 
 
 
-
-
 **Task 3 POST Request**
-
-
 
 
 
