@@ -115,7 +115,7 @@ ultimately adding Samy to her friends list.
 
 </br>
 
-Ans: The image above is the GET request that was sent when Alice visited the website. That
+The image above is the GET request that was sent when Alice visited the website. That
 
 webpage forged a GET request with the specific user id for Samy, 59. Samy’s user id was gotten
 
@@ -125,13 +125,31 @@ POST request when that action was completed. This GET request added Samy to Alic
 
 list by forging the GET request to add a friend.
 
+</br>
 
+# Task 3 POST Request
 
-**Task 3 POST Request**
+</br>
 
+<img src= "https://user-images.githubusercontent.com/77298953/210189897-43d1183c-3b50-4bcb-93d7-715533f1c246.PNG" width=70% height=70%>
 
+</br>
 
-**Ans**: In order to change Alice’s description in her profile, a POST request needed to be forged.
+<img src= "https://user-images.githubusercontent.com/77298953/210189903-90b19827-21c3-4de6-bbfc-8b1681efd6c7.PNG" width=70% height=70%>
+
+</br>
+
+<img src= "https://user-images.githubusercontent.com/77298953/210189917-385bd4e5-5e1b-482d-ac4d-08f584549e7b.PNG" width=70% height=70%>
+
+</br>
+
+<img src= "https://user-images.githubusercontent.com/77298953/210189938-cea8f365-1485-4f6c-957f-ccb4a7a5d075.PNG" width=70% height=70%>
+
+</br>
+
+## Explanation for Task 3
+
+In order to change Alice’s description in her profile, a POST request needed to be forged.
 
 To accomplish this, the editprofile.html file was edited with information relating to Alice and her
 
@@ -153,7 +171,9 @@ server.com/action/profile/edit needed to be inserted so that the POST request ca
 
 create the changes.
 
-**Question 1:** The forged HTTP request needs Alice’s user id (guid) to work properly. If Boby
+</br>
+
+Question 1: The forged HTTP request needs Alice’s user id (guid) to work properly. If Boby
 
 targets Alice specifically, before the attack, he can find ways to get Alice’s user id. Boby does
 
@@ -161,11 +181,9 @@ not know Alice’s Elgg password, so he cannot log into Alice’s account to get
 
 Please describe how Boby can solve this problem.
 
+</br>
 
-
-
-
-**Ans:** In order to get Alice’s user id (guid) without logging into her account, Boby can look at the
+Ans: In order to get Alice’s user id (guid) without logging into her account, Boby can look at the
 
 HTTP requests sent in the HTTP Header Live extension. Boby can add Alice as a friend which
 
@@ -175,13 +193,18 @@ request, Alice’s user id of 56 can be seen in the url which can be used to car
 
 since her profile will specifically be targeted in the forged POST request.
 
-**Question 2:** If Boby would like to launch the attack to anybody who visits his malicious web
+</br>
+
+
+Question 2: If Boby would like to launch the attack to anybody who visits his malicious web
 
 page. In this case, he does not know who is visiting the web page beforehand. Can he still launch
 
 the CSRF attack to modify the victim’s Elgg profile? Please explain.
 
-**Ans:** If Boby would like to attack anybody that visits his malicious website, he would not be able
+</br>
+
+Ans: If Boby would like to attack anybody that visits his malicious website, he would not be able
 
 to launch the CSRF attack. This is because since he does not know who is visiting the website
 
@@ -189,7 +212,9 @@ beforehand, the user id cannot be added into the files. For each attack, the use
 
 specifically stated in the file so the requests can be forged.
 
-**Task 4 Counter Measures**
+</br>
+
+# Task 4 Counter Measures
 
 **Ans:** In order to edit the Csrf.php file to enable the counternmeasue by removing the return
 
