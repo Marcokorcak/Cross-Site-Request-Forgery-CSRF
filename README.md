@@ -107,9 +107,10 @@ ultimately adding Samy to her friends list.
 
 </br>
 
-Task 2 Continued
+## Explanation for Task 2 (Continued)
 
 </br>
+
 <img src= "https://user-images.githubusercontent.com/77298953/210189738-6469e115-55b0-44c0-aa90-f31e846fcdca.PNG" width=70% height=70%>
 
 </br>
