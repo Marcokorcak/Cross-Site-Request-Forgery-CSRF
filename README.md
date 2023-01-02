@@ -8,9 +8,13 @@ In this lab, students will be attacking a social networking web application usin
 open-source social networking application is called Elgg, which has already been installed in our VM.
 Elgg has countermeasures against CSRF, but we have turned them off for the purpose of this lab. This lab
 covers the following topics:
+
 • Cross-Site Request Forgery attack
+
 • CSRF countermeasures: Secret token and Same-site cookie
+
 • HTTP GET and POST requests
+
 • JavaScript and Ajax
 
 ## Table of contents
