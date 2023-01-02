@@ -1,8 +1,27 @@
-# Cross-Site-Request-Forgery-CSRF
+# Cross-Site-Request-Forgery-CSRF Description
+
+The objective of this lab is to help students understand the Cross-Site Request Forgery (CSRF) attack. A
+CSRF attack involves a victim user, a trusted site, and a malicious site. The victim user holds an active
+session with a trusted site while visiting a malicious site. The malicious site injects an HTTP request for the
+trusted site into the victim user session, causing damages.
+In this lab, students will be attacking a social networking web application using the CSRF attack. The
+open-source social networking application is called Elgg, which has already been installed in our VM.
+Elgg has countermeasures against CSRF, but we have turned them off for the purpose of this lab. This lab
+covers the following topics:
+• Cross-Site Request Forgery attack
+• CSRF countermeasures: Secret token and Same-site cookie
+• HTTP GET and POST requests
+• JavaScript and Ajax
+
+## Table of contents
+* [Lab Setup](#Lab-Setup)
+* [Task 1](#Task-1)
+* [Task 2](#Task-2)
+* [Task 3](#Task-3)
+* [Task 4](#Task-4)
+* [Task 5](#Task-5)
 
 
-
-SEED Lab
 
 Cybersecurity is an industry that is constantly evolving and involves understanding
 
