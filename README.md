@@ -23,7 +23,7 @@ covers the following topics:
 * [Task 5](#Task-5)
 
 
-##Lab Environment Setup
+## Lab Environment Setup
 
 <img src= "https://user-images.githubusercontent.com/77298953/210189511-17fb95e2-e7bc-4117-8c1d-48e9345ecccd.PNG" width=70% height=70%>
 
